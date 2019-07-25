@@ -47,8 +47,3 @@ class DatabaseEntry:
 
     
 
-if __name__ == "__main__":
-    x = DatabaseEntry("root","ajs123","testing")
-    # print(x.createTable("userinput"))   
-    print(x.insertInto("userinput","Bhavesh Karla ","the flash, fullmetal alchemist"))     
-
